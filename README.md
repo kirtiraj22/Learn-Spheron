@@ -2,17 +2,19 @@
 
 Welcome to the Dappathon Season 2! In this hands-on guide, we'll walk you through the process of deploying your first decentralized application (Dapp) using Spheron. Follow the steps below to get started.
 
-# Here are some resources : 
-## Spheron 
-- [Spheron Docs](https://docs.spheron.network/)
-- [web deployment link](https://app.spheron.network/#/login)
-- [Spheron CLI link](https://www.npmjs.com/package/@spheron/cli)
-- [Spheron SDK](https://github.com/spheronFdn/sdk)
+# About our dApp : 
+- **Title and Design**: The HTML document sets up a simple web page for a decentralized application (dApp) called "Spheron dApp." It includes input fields and buttons for user interaction.
+
+- **User Mood Interaction**: Users can input their mood into the text field provided and then click the "Set Mood" button to store their mood on the blockchain. Alternatively, they can click the "Get Mood" button to retrieve and display their previously stored mood from the blockchain.
+
+- **Blockchain Integration**: The dApp is integrated with the Ethereum blockchain using the ethers.js library. It communicates with a specific smart contract deployed on the blockchain to store and retrieve mood data. The smart contract has two functions: setMood, which allows users to store their mood, and getMood, which retrieves the stored mood.
+
+- ### **Summary** : This basic dApp demonstrates a fundamental interaction with the blockchain, allowing users to store and retrieve data (in this case, their mood) on the Ethereum blockchain. 
 
 ## Step 1 : 
-- ### Make a new Repo(You can Choose whatever name you want)
-- ### Select the option (Add README file)
-- ### upload your file (you can refer the step 3 if you haven't created the code)
+- Make a new Repo(You can Choose whatever name you want)
+- Select the option (Add README file)
+- upload your file (you can refer the step 3 if you haven't created the code)
 
 ## Step 2 : 
 - ### Add Sepolia Testnet to your metamask.
@@ -146,6 +148,16 @@ Welcome to the Dappathon Season 2! In this hands-on guide, we'll walk you throug
 - Click on Deploy
 - After that test whether your Dapp is working or not(by clicking on preview deployment)
 - And its Done! You have just Deployed your first Dapp using Spheron!!!
+
+  
+# Here are some resources : 
+## Spheron 
+- [Spheron Docs](https://docs.spheron.network/)
+- [web deployment link](https://app.spheron.network/#/login)
+- [Spheron CLI link](https://www.npmjs.com/package/@spheron/cli)
+- [Spheron SDK](https://github.com/spheronFdn/sdk)
+
+
 
 # Submissions
 ### Once you've successfully deployed your Dapp, it's time to showcase your work! Please submit your Dapp's GitHub repository and live site link in the following format:
