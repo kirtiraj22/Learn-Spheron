@@ -136,6 +136,25 @@ Welcome to the Dappathon Season 2! In this hands-on guide, we'll walk you throug
       }
     </script>
   ```
+
+- ### Solidity Code : 
+```
+//SPDX-License-Identifier:MIT
+pragma solidity ^0.8.19;
+
+contract Mood{
+    string mood;
+
+    function setMood(string memory _mood) public{
+        mood = _mood;
+    }
+
+    function getMood() public view returns(string memory){
+        return mood;
+    }
+}
+
+```
 ## FULL CODE : [repo](input_repo_link)
 
 # Deploy On Spheron : 
@@ -160,6 +179,6 @@ Welcome to the Dappathon Season 2! In this hands-on guide, we'll walk you throug
 
 
 # Submissions
-### Once you've successfully deployed your Dapp, it's time to showcase your work! Please submit your Dapp's GitHub repository and live site link in the following format:
+### Once you've successfully deployed your Dapp, it's time to showcase your work! Please submit your Dapp's GitHub repository or live site link below:
 
-[Kirtiraj Thakor](github_link)
+- [Kirtiraj Thakor](github_link)
