@@ -188,3 +188,4 @@ contract Mood{
 - [Atharva Deshmukh](https://github.com/Atharva-3000/spheron-dapp-meetup/tree/main)
 - [Hitakshu Goswami](https://github.com/Hitakshu-Goswami/first-dapp/tree/main)
 - [Vraj Solanki](https://github.com/vrajsolanki2005/first-dapp)
+- [Manav Patel](https://github.com/devilking5377/nalla-dapp)
