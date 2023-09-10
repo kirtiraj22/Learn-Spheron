@@ -12,9 +12,19 @@ Welcome to the Dappathon Season 2! In this hands-on guide, we'll walk you throug
 ## Step 1 : 
 - ### Make a new Repo(You can Choose whatever name you want)
 - ### Select the option (Add README file)
-- ### upload your file (you can refer the step 2 if you haven't created the code)
+- ### upload your file (you can refer the step 3 if you haven't created the code)
 
-## Step 2 :
+## Step 2 : 
+- ### Add Sepolia Testnet to your metamask.
+      - Network Name : Sepolia test network
+      - New RPC URL : https://sepolia.infura.io/v3/
+      - Chain ID : 11155111
+      - Currency Symbol : SepoliaETH
+      - Block explorer URL : https://sepolia.etherscan.io
+- ### Get Free test ethers : https://sepoliafaucet.com/  
+
+
+## Step 3 :
 - ### Checkout this CODE for Today's Session : 
 
 - ### HTML div : 
