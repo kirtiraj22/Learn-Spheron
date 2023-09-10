@@ -181,4 +181,4 @@ contract Mood{
 # Submissions
 ### Once you've successfully deployed your Dapp, it's time to showcase your work! Please submit your Dapp's GitHub repository or live site link below:
 
-- [Kirtiraj Thakor](github_link)
+- [Atharva Deshmukh](https://github.com/Atharva-3000/spheron-dapp-meetup/tree/main)
