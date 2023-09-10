@@ -184,4 +184,5 @@ contract Mood{
 
 - [Kirtiraj Thakor](https://github.com/kirtiraj22/First-dapp)
 - [Krish Soni](https://github.com/krishvsoni/DApp-basic)
+- [Mohit Parmar] (https://github.com/mohitparmar1/First-dApp)
 
