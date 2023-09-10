@@ -181,4 +181,7 @@ contract Mood{
 # Submissions
 ### Once you've successfully deployed your Dapp, it's time to showcase your work! Please submit your Dapp's GitHub repository or live site link below:
 
+
 - [Kirtiraj Thakor](https://github.com/kirtiraj22/First-dapp)
+- [Krish Soni](https://github.com/krishvsoni/DApp-basic)
+
