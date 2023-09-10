@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Spheron dApp</title>
+    <title>Welcome to Web3</title>
     <style>
       body {
         text-align: center;
@@ -26,21 +26,16 @@
   </head>
   <body>
     <div>
-      <h1>This is my dApp!</h1>
-      <p>Here we can set or get the mood:</p>
-      <label for="mood">Input Mood:</label> <br />
-      <input type="text" id="mood" />
-
-      <button onclick="getMood()">Get Mood</button>
-      <button onclick="setMood()">Set Mood</button>
-      <p id="showMood"></p>
+      <h1>Welcome to Web 3</h1>
+      <button onclick="getGreeting()">Get Greeting</button>
+      <p id="showGreeting"></p>
     </div>
     <script
       src="https://cdn.ethers.io/lib/ethers-5.7.2.umd.min.js"
       type="application/javascript"
     ></script>
     <script>
-      const MoodContractAddress = "<Place Your Contract Address>";
+      const MoodContractAddress = "0x5B38Da6a701c568545dCfcB03FcB875f56beddC4"; // Replace with your actual contract address
       const MoodContractABI = [
         {
           "inputs": [
@@ -53,6 +48,25 @@
           "name": "setMood",
           "outputs": [],
           "stateMutability": "nonpayable",
+          "type": "function",
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "string",
+              "name": "_name",
+              "type": "string",
+            },
+          ],
+          "name": "getGreeting",
+          "outputs": [
+            {
+              "internalType": "string",
+              "name": "",
+              "type": "string",
+            },
+          ],
+          "stateMutability": "pure",
           "type": "function",
         },
         {
@@ -81,7 +95,6 @@
         "sepolia"
       );
 
-
       // Requesting user's Ethereum account access using the Ethereum provider.
       provider.send("eth_requestAccounts", []).then(() => {
         // Once account access is granted, list the available Ethereum accounts.
@@ -98,16 +111,14 @@
         });
       });
 
-      async function getMood() {
-        const mood = await MoodContract.getMood();
+      async function getGreeting() {
+        const name = prompt("Enter your name:"); // Prompt the user for their name
+        if (name) {
+          const greeting = await MoodContract.getGreeting(name);
 
-        document.getElementById("showMood").innerText = `Your Mood: ${mood}`;
-        console.log(mood);
-      }
-
-      async function setMood() {
-        const mood = document.getElementById("mood").value;
-        await MoodContract.setMood(mood);
+          document.getElementById("showGreeting").innerText = greeting;
+          console.log(greeting);
+        }
       }
     </script>
   </body>
