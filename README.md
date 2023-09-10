@@ -182,3 +182,4 @@ contract Mood{
 ### Once you've successfully deployed your Dapp, it's time to showcase your work! Please submit your Dapp's GitHub repository or live site link below:
 
 - [Kirtiraj Thakor](github_link)
+- [Manav Patel](https://github.com/devilking5377/nalla-dapp)
