@@ -73,14 +73,23 @@
       let MoodContract = undefined;
       let signer = undefined;
 
+      // Creating a Web3Provider instance to connect to the Ethereum blockchain.
+      // It uses the "window.ethereum" object for the connection and specifies the network as "sepolia."
+
       const provider = new ethers.providers.Web3Provider(
         window.ethereum,
         "sepolia"
       );
+
+
+      // Requesting user's Ethereum account access using the Ethereum provider.
       provider.send("eth_requestAccounts", []).then(() => {
+        // Once account access is granted, list the available Ethereum accounts.
         provider.listAccounts().then((accounts) => {
+          // Assign the signer (account) to interact with smart contracts.
           signer = provider.getSigner(accounts[0]);
 
+          // Create an instance of the MoodContract to interact with it.
           MoodContract = new ethers.Contract(
             MoodContractAddress,
             MoodContractABI,
