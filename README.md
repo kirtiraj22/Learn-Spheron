@@ -183,7 +183,7 @@ contract Mood{
 
 - [Kirtiraj Thakor](https://github.com/kirtiraj22/First-dapp)
 - [Krish Soni](https://github.com/krishvsoni/DApp-basic)
-- [Mohit Parmar](https://github.com/mohitparmar1/First-dApp)
+- [Mohit Parmar](https://github.com/mohitparmar1/First-dApp-spheron)
 - [Ansh Patel](https://github.com/Ansh-2303/firstdapp)
 - [Atharva Deshmukh](https://github.com/Atharva-3000/spheron-dapp-meetup/tree/main)
 - [Hitakshu Goswami](https://github.com/Hitakshu-Goswami/first-dapp/tree/main)
