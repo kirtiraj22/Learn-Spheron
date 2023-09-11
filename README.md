@@ -189,3 +189,4 @@ contract Mood{
 - [Hitakshu Goswami](https://github.com/Hitakshu-Goswami/first-dapp/tree/main)
 - [Vraj Solanki](https://github.com/vrajsolanki2005/first-dapp)
 - [Manav Patel](https://github.com/devilking5377/nalla-dapp)
+- [Nishit Bariya](https://github.com/Nishitbaria/Learn-Spheron_Nishit)
